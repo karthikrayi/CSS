@@ -1,0 +1,42 @@
+.topsmall{
+    text-align: center;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+.left-logo{
+    display: flex;
+    align-items: center;
+}
+.left-logo p{
+    font-weight: 200;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 130px;
+}
+.nav-left ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.nav-right ul{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    transition: 0.5s;
+}
+ul li a:hover{
+    color: blue;
+}
