@@ -1,3 +1,3 @@
 # Daily CSS Practice 
 
-- *[Day-1 Practice](../../tree/Day-1)*: First day practice
+- *[Day-1 Practice](../../tree/Day-1)*: First day practice - [Output](https://karthikrayi.github.io/CSS/CSSintro)
