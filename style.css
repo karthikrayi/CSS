@@ -1,0 +1,79 @@
+<!--
+    today topic is  Box Model 
+             1.unbox model
+             2.box model
+
+    ---the boxmodel means to 4types to use in the css 
+            1.containers--having
+                 two types to use --1.width
+                                    2.height
+            2.padding
+            3.boarder
+            4.margin                        
+    -->
+*{
+    width: 0;
+    padding: 0;
+}
+.card{
+    width: 30%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+}
+.card img{
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+}
+.card h2{
+    font-size: 300%;
+    background-color: antiquewhite;
+
+}
+.card p{
+    font-size: 150%;
+    text-align: center;
+
+}
+.card button{
+    width: 100%;
+    margin-bottom: 25.5PX;
+}
+.albums{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.albums div{
+    margin: 5px;
+    border: 5px solid red;
+    border-radius: 25px;
+}
+.photos img{
+    width: 80%;
+    border: 10px;
+    margin: 2px;
+    border-radius: 50%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.photos h2{
+    margin-left: 18%;
+    border: 10px;
+    font-size: 50px;
+    
+}
+.photos button{
+    margin-left: 35%;
+    width: 30%;
+    margin-bottom: 10px;
+}
+.photos p{
+    font-size: 20px;
+    margin-left: 10px;
+}
