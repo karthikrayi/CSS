@@ -1,0 +1,65 @@
+ <!---
+
+  Positions:
+
+      positions having to using the 4 types
+
+            1:Static
+                static we can use the mainly position:{elements}.html elements are positioned static by default
+            2:Relative
+                Relative we using the normal positions and we using the left,right,buttom,top properties of a relative position
+            3:Absolute
+                Absolute is an elements with positon:relative; is positioned relative to the nearest ancestor(instead of positioned relative to the viewport,like fixed)
+            4:Fixed
+                An elements with position:fixed; is the positioned relative to the viewport,which means it always stays in the same place even if the page is scrolled.
+                The top,right,bottom and left properties are used to position the elements
+            5:Sticky
+                An elements with position:sticky;  is the positioned based  on the users scroll positions.
+             
+--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CSS Position Property</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>CSS Position Property</h1>
+    <p>An overview of the different position values in CSS.</p>
+  </header>
+
+  <main>
+    <section id="static">
+      <h2>Static Position</h2>
+      <p>The default position value for HTML elements.</p>
+      <div>Static Box</div>
+    </section>
+
+    <section id="relative">
+      <h2>Relative Position</h2>
+      <p>The element is positioned relative to its normal position.</p>
+      <div>Relative Box</div>
+    </section>
+
+    <section id="absolute">
+      <h2>Absolute Position</h2>
+      <p>The element is positioned absolutely to its closest positioned ancestor.</p>
+      <div>Absolute Box</div>
+    </section>
+
+    <section id="fixed">
+      <h2>Fixed Position</h2>
+      <p>The element is positioned relative to the viewport and stays fixed when scrolling.</p>
+      <div>Fixed Box</div>
+    </section>
+
+    <section id="sticky">
+      <h2>Sticky Position</h2>
+      <p>The element toggles between relative and fixed, depending on the scroll position.</p>
+      <div>Sticky Box</div>
+    </section>
+  </main>
+</body>
+</html>

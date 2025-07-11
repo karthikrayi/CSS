@@ -1,0 +1,60 @@
+/* General page styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+header {
+  text-align: center;
+}
+
+div {
+  width: 150px;
+  height: 150px;
+  background-color: #4CAF50;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+/* Relative position example */
+.relative {
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
+
+/* Absolute position example */
+.absolute-container {
+  position: relative; /* Container for absolute child */
+  height: 200px;
+  border: 2px dashed gray;
+}
+
+.absolute {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: tomato;
+}
+
+/* Fixed position example */
+.fixed {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: purple;
+}
+
+/* Sticky position example */
+.sticky-container {
+  height: 2000px; /* To show scroll effect */
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: gold;
+}
