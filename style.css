@@ -1,0 +1,51 @@
+/*backgroundprops
+        backgroundprops is using different types:
+            background-color-->we using the to style appling to the background-color.
+            background-img-->we using url() in that we paste the image addess to appling the image.
+            background-repeat-->we using to repeat the that style.
+                  1.repeat
+                  2.no-repeat -->no-repeat means to no repeating the style.
+                  3.repeat-x -->repeat-x means to repeat the style x-axis.
+                  4.repeat-y -->repeat-y means to repeat the style y-axis.
+            background-positions-->we using to the style moving at any position.
+                  like  1.top-left
+                        2.top-right
+                        3.top-center
+                        4.bottom-left
+                        5.bottom-right
+                        6.bottom-center
+            background-attachment-->we using attacheted the style.
+                          like using 1.fixed-->the style is fixed.
+                                     2.scroll-->the style is scrolled.
+            background-size-->we using the 1.auto
+                                           2.contain--> we contain that size to appling the size.
+                                           3.cover
+                      
+
+*/
+/* 
+background	            Sets all the background properties in one declaration
+background-attachment	Sets whether a background image is fixed or scrolls with the rest of the page
+background-clip	      Specifies the painting area of the background
+background-color	      Sets the background color of an element
+background-image	      Sets the background image for an element
+background-origin	      Specifies where the background image(s) is/are positioned
+background-position	Sets the starting position of a background image
+background-repeat	      Sets how a background image will be repeated
+background-size	      Specifies the size of the background image(s)
+*/
+
+.card{
+    width: 75%;
+    margin: 100px auto;
+    border: 2px solid black;
+    height: 500px;
+    background-color: antiquewhite;
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630);
+    /*background-repeat: no-repeat;*/
+   /* background-position: ;*/
+   /*background-position: ;*/
+   /*background-attachment: ;*/
+    background-size: cover;
+
+}
